@@ -1,23 +1,13 @@
 import tkinter
 from tkinter import *
-# import tkFileDialog
 from tkinter import filedialog
 import pandas as pd
 import matplotlib
 matplotlib.use("TkAgg")
 import seaborn as sns
 
-
-    #a = Button(text="Center Button")
-    #a.place(relx=5, rely=.5, anchor=CENTER)
-    #mainloop
-
-
-
-
-
-
 if __name__ == '__main__':
+    # this is the main function
     form = tkinter.Tk()
 
     getFld = tkinter.IntVar()
